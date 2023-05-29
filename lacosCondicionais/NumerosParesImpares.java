@@ -23,11 +23,11 @@ public class NumerosParesImpares {
 		
 		}
 		 else {
-				if (num % 2 == 0) {
-					System.out.println("O número " + num + " é par e negativo" );
+				if (num % 2 == -1) {
+					System.out.println("O número " + num + " é impar e negativo" );
 				}
 				else {
-					System.out.println("O número " + num + " é impar e negativo" );
+					System.out.println("O número " + num + " é par e negativo" );
 				}
 		}
 	}
