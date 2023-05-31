@@ -26,10 +26,10 @@ public class DetermineOsNumeros {
 		num = ler.nextInt();
 		
 		if (setNumeros.contains(num)) {
-			System.out.println("O número" + num + "foi encontrado.");
+			System.out.println("O número " + num + " foi encontrado.");
 		}
 		else {
-			System.out.println("O número" + num + "não foi encontrado");
+			System.out.println("O número " + num + " não foi encontrado");
 		}
 		ler.close();
 	}

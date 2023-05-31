@@ -9,7 +9,7 @@ public class organizeAsCores {
 	public static void main(String[] args) {
 		Scanner ler = new Scanner(System.in);
 		ArrayList<String> cores = new ArrayList<String>();
-
+		
 		String cor;
 		
 		for (int num = 0; num <= 4; num++) {
